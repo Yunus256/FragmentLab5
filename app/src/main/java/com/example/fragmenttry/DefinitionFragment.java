@@ -11,16 +11,13 @@ import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link DefinitionFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class DefinitionFragment extends Fragment {
 
-    TextView tvConcept,tvDefinition;
     public DefinitionFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -31,15 +28,7 @@ public class DefinitionFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view =  inflater.inflate(R.layout.fragment_definition, container, false);
-        tvConcept= (TextView) view.findViewById(R.id.concepts);
-        tvDefinition= (TextView)view.findViewById(R.id.definition);
-        return view;
+        return  inflater.inflate(R.layout.fragment_definition, container, false);
     }
 
-    public void display(String concept, String definition){
-        tvConcept.setText(concept);
-        tvDefinition.setText(definition);
-
-    }
 }

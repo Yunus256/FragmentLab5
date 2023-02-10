@@ -69,10 +69,7 @@ public class ListFragment extends Fragment {
         {
             @Override public void onItemClick(AdapterView<?> arg0, View arg1,int position, long arg3)
             {
-            //    Toast.makeText(getActivity(), "Test toast", Toast.LENGTH_SHORT).show();
-                DefinitionFragment fragment = (DefinitionFragment) getActivity().getSupportFragmentManager().findFragmentById(R.id.fragmentContainerView2);
-                fragment.display(concepts[position],"Definition : "+definition[position]);
-                listView.setSelector(android.R.color.holo_blue_dark);
+                  listView.setSelector(android.R.color.holo_blue_dark);
             }
         });
 
