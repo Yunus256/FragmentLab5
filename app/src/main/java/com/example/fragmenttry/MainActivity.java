@@ -18,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
         // Changes made by a second team member
 
         // making changes on the humidity-sensor branch
+
+        // Adding more logic into the 2nd branch
     }
 }
