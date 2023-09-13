@@ -14,5 +14,7 @@ public class MainActivity extends AppCompatActivity {
         // Make changes to Main Activity
 
         // 3rd changes to the file
+
+        // Changes made by a second team member
     }
 }
