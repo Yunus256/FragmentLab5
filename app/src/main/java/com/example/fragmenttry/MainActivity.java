@@ -12,5 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Make changes to Main Activity
+
+        // 3rd changes to the file
     }
 }
