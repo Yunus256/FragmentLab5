@@ -10,14 +10,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // Make changes to MainActivity
-
-        // second change by 1st team member
-
-        // Changes made by another team member
-
-        // changes to branch-feature
-
     }
 }
