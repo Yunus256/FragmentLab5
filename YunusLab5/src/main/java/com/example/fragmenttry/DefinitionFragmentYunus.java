@@ -7,15 +7,21 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
  * create an instance of this fragment.
+ *
+ * Author
+ * Yunus Cheentavida
+ * n01520090
+ *
  */
-public class DefinitionFragment extends Fragment {
 
-    public DefinitionFragment() {
+
+public class DefinitionFragmentYunus extends Fragment {
+
+    public DefinitionFragmentYunus() {
         // Required empty public constructor
     }
 

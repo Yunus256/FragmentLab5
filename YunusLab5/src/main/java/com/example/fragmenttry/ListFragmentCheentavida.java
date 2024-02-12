@@ -3,7 +3,6 @@ package com.example.fragmenttry;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,14 +10,18 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Switch;
 import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
  * create an instance of this fragment.
+ *
+ * Author
+ * Yunus Cheentavida
+ * n01520090
+ *
  */
-public class ListFragment extends Fragment {
+public class ListFragmentCheentavida extends Fragment {
 
     private ListView listView;
 
@@ -58,7 +61,7 @@ public class ListFragment extends Fragment {
 
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_list, container, false);
-        listView = view.findViewById(R.id.listView1);
+        listView = view.findViewById(R.id.yunusListView1);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, concepts);
